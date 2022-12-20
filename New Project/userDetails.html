@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftwebsolutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./userDetails.css">
+    <script defer src="./userDetails.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Giftwebsolutions</h1>
+            <h4 style="text-align: center;">Welcomes you..!</h4>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter your name" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="abcd@gmail.com" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="phonenumber">Phone-number</label>
+                <input id="phonenumber" name="phonenumber" type="tel" placeholder="+91-9673921877"    required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="date">date</label>
+                <input id="date" name="date" type="date"  required>
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password" minlength="6" placeholder="should prefer strong" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password" placeholder="should prefer strong" required>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="resume">Upload your Cv</label>
+                <input id="resume" name="resume" type="file" required>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
